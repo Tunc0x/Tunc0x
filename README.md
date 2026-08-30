@@ -12,7 +12,7 @@ I'm building it with **FastAPI, React, PostgreSQL, AWS/SQS, Terraform, and CI/CD
 
 ### Selected projects
 
-**Scheduling Prototype**
+**Appointment Scheduler**
 A full stack appointment scheduling app with month, week, and list views. You can filter, create appointments, and the data is persisted.
 
 `Next.js` · `TypeScript` · `React` · `Supabase` · `React Query` · `Zod`
