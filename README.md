@@ -6,9 +6,15 @@ The stack I work with most is **Python/FastAPI, TypeScript/React, PostgreSQL, Ja
 
 ### Currently building
 
-**OpsReplay** is an incident intelligence platform for engineering teams. It reconstructs what happened around an incident from sources like GitHub activity.
+## [OpsReplay](https://github.com/Tunc0x/opsreplay)
 
-I'm building it with **FastAPI, React, PostgreSQL, AWS/SQS, Terraform, and CI/CD**. A lot of the work is about ingesting webhooks reliably, processing them asynchronously, and designing the backend the way you'd actually run it in production.
+OpsReplay is a release and incident intelligence tool for small engineering teams. It brings code changes, deployments, alerts, incidents, and other operational events into one chronological timeline so engineers can understand **what changed before production broke**.
+
+The project includes GitHub App integration, signature-verified webhook ingestion, asynchronous event processing, and production-oriented infrastructure. Additional integrations, incident workflows, and evidence-grounded postmortem generation are being developed incrementally.
+
+**[Live site](https://opsreplay.pages.dev/)** · **[Repository](https://github.com/Tunc0x/opsreplay)**
+
+`Python/FastAPI` · `TypeScript/React` · `PostgreSQL` · `AWS/SQS` · `Docker` · `Terraform` · `GitHub Actions` · `GitHub App`
 
 ### Selected projects
 
