@@ -2,52 +2,36 @@
 
 I'm a software engineer. I build full stack products, backend systems, and immersive apps.
 
-The stack I work with most is **Python/FastAPI, TypeScript/React, PostgreSQL, Java/Spring Boot, cloud infrastructure, and Unity/C#**. I'm especially drawn to reliable systems, XR, and products that use AI.
+The stack I work with most is Python/FastAPI, TypeScript/React, PostgreSQL, Java/Spring Boot, cloud infrastructure, and Unity/C#. I'm especially drawn to reliable systems, XR, and products that use AI.
 
-### Currently building
+**[Portfolio](https://tuncay-portfolio.pages.dev/)** · **[Résumé (PDF)](https://tuncay-portfolio.pages.dev/Tuncay_Unal_Resume.pdf)**
 
-## [OpsReplay](https://github.com/Tunc0x/opsreplay)
+## Currently building: [OpsReplay](https://github.com/Tunc0x/opsreplay)
 
-OpsReplay is a release and incident intelligence tool for small engineering teams. It brings code changes, deployments, alerts, incidents, and other operational events into one chronological timeline so engineers can understand **what changed before production broke**.
+Release and incident intelligence for small engineering teams. OpsReplay turns GitHub and alert webhooks into evidence-linked timelines that show **what changed before production broke**.
 
-The project includes GitHub App integration, signature-verified webhook ingestion, asynchronous event processing, and production-oriented infrastructure. Additional integrations, incident workflows, and evidence-grounded postmortem generation are being developed incrementally.
+- **Verified, idempotent ingestion:** GitHub App and alert webhooks with signature checks, processed asynchronously through a transactional outbox and SQS
+- **Investigation context:** time windows around an alert that surface related changes, plus an incident lifecycle from trigger to resolution
+- **Grounded postmortems:** OpenAI drafts for resolved incidents, validated against timeline evidence and kept as editable, versioned drafts
 
-**[Live site](https://opsreplay.pages.dev/)** · **[Repository](https://github.com/Tunc0x/opsreplay)**
+`Python` · `FastAPI` · `PostgreSQL` · `AWS SQS` · `OpenAI` · `Docker Compose`
 
-`Python/FastAPI` · `TypeScript/React` · `PostgreSQL` · `AWS/SQS` · `Docker` · `Terraform` · `GitHub Actions` · `GitHub App`
+**[Live site](https://opsreplay.pages.dev/)** · **[Repository](https://github.com/Tunc0x/opsreplay)** · Backend implemented; product UI in progress
 
-### Selected projects
+## Selected projects
 
-**Appointment Scheduler**
-A full stack appointment scheduling app with month, week, and list views. You can filter, create appointments, and the data is persisted.
+**[Web AR Model Viewer](https://github.com/Tunc0x/web-ar-model-viewer)** · [Live demo](https://tunc0x.github.io/web-ar-model-viewer/)
+Marker-based augmented reality in the mobile browser. Unity WebGL content is aligned to tracked image targets, with touch and swipe interaction. No app install needed.
+`Unity` · `C#` · `WebGL` · `OpenCV.js`
 
-`Next.js` · `TypeScript` · `React` · `Supabase` · `React Query` · `Zod`
+**[Appointment Scheduler](https://github.com/Tunc0x/appointment-scheduler)** · [Live demo](https://vocare-scheduler.vercel.app/)
+Calendar scheduling with month, week, and list views, patient and category filters, and Zod-validated server-side writes to Supabase.
+`Next.js` · `TypeScript` · `Supabase` · `TanStack Query` · `Tailwind CSS`
 
-**Barber Booking App**
-A full stack booking system with a REST backend and a relational database.
+**[Barber Booking App](https://github.com/Tunc0x/barber-booking-app)**
+Booking flows for clients and shop owners, built on a Spring Boot REST API with JPA persistence and a check that rejects already-reserved time slots.
+`Java` · `Spring Boot` · `React` · `PostgreSQL`
 
-`Java` · `Spring Boot` · `React` · `PostgreSQL` · `JPA`
-
-**Web AR Model Viewer**
-An augmented reality prototype that runs in the browser, using Unity WebGL, webcam access, and image tracking.
-
-`Unity` · `WebGL` · `JavaScript` · `Computer Vision`
-
-### What I'm interested in
-
-I like building software that brings together **product thinking, backend engineering, interactive systems, and emerging technologies**.
-
-<!--
-**Tunc0x/Tunc0x** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[Portfolio site](https://github.com/Tunc0x/tuncay-portfolio)** · [Live](https://tuncay-portfolio.pages.dev/)
+A static-first Astro site. React project demos hydrate only when visible, and a Three.js spatial scene loads on demand.
+`Astro` · `TypeScript` · `React` · `Three.js`
